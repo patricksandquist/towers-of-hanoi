@@ -52,3 +52,8 @@ ul ul:hover {
   cursor: pointer;
   border-top: 20px green solid;
 }
+
+ul ul.over:hover {
+  cursor: default;
+  border-top: 20px pink solid;
+}

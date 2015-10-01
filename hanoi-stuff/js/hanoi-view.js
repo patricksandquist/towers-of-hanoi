@@ -49,6 +49,11 @@
       $("#ul" + first).children().last().remove();
       $("#ul" + second).append($("<li>"));
       $("#ul" + second).children().last().attr("id", "li" + id);
+      if (this.game.isWon()) {
+        $('ul ul').off();
+        $("body").append("<h1>YOU WON</h1>");
+        $("ul ul").addClass("over");
+      }
     } else {
       alert("BAD MOVE, SIR");
     }
