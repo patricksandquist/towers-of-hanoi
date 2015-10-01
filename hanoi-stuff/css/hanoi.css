@@ -1,0 +1,54 @@
+li {
+  border-radius: 15px;
+  position: static;
+  bottom: 5px;
+
+}
+
+#li0 {
+  background-color: blue;
+  height: 30px;
+  width: 50px;
+  display: block;
+  margin: 10px 25px;
+}
+
+#li1 {
+  background-color: blue;
+  height: 30px;
+  width: 75px;
+  display: block;
+  margin: 10px 12.5px;
+}
+
+#li2 {
+  background-color: blue;
+  height: 30px;
+  width: 100px;
+  display: block;
+  margin: 10px 0px;
+}
+
+ul {
+  position: relative;
+  display: block;
+  margin: 0px;
+  padding-right: 40px;
+
+
+}
+
+ul ul {
+  display: block;
+  float: left;
+  min-width: 100px;
+  min-height: 140px;
+  margin: 10px;
+  border-top: 20px pink solid;
+    transform: rotateZ(180deg);
+}
+
+ul ul:hover {
+  cursor: pointer;
+  border-top: 20px green solid;
+}
