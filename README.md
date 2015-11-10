@@ -1,3 +1,3 @@
 # Towers of Hanoi
 
-* **[Live Demo!](http://appacademy.github.io/hanoi.js/solution/html/hanoi.html)**
+* **[Live!](https://rawgit.com/patricksandquist/towers-of-hanoi/gh-pages/hanoi-stuff/html/index.html)**
